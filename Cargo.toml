@@ -1,0 +1,16 @@
+[package]
+name = "homebrew-manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = { version = "0.28", default-features = false, features = [
+    "glow",
+    "default_fonts",
+    "wayland",
+    "x11",
+] }
+egui = "0.28"
+
+[profile.release]
+opt-level = 2
