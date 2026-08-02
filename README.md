@@ -3,6 +3,9 @@
 A native GUI for managing [Homebrew](https://brew.sh), built in Rust with
 [eframe/egui](https://github.com/emilk/egui).
 
+<img width="1092" height="784" alt="Screenshot 2026-08-02 at 7 33 58 AM" src="https://github.com/user-attachments/assets/4afbea14-2061-4ee2-9960-33def990ffb8" />
+
+
 ## Features
 
 - **Status** — detects whether `brew` is installed (checks `PATH`, then
